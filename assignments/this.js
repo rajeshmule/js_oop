@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Using function to create object
 
 var user = function(name, id, password,noOfProject){
@@ -124,8 +124,9 @@ class User {
         return this.noOfProject = --(this.noOfProject);
     };
     
-  }
-=======
+}
+
+
 console.log(this.document === document); // Output
 
 console.log(this === window); //Output
@@ -281,4 +282,3 @@ obj.getThis4();
 
 // Output
 obj.getThis4.call(a);
->>>>>>> 855ee626e597932b78d60dbe9f3dc6264c1ad643
