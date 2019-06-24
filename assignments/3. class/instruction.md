@@ -1,11 +1,11 @@
-## An object-oriented book-list!
+# An object-oriented book-list!
 
-*[ ] Create a class BookList
-*[ ] Create another class called Book
+* [ ] Create a class BookList
+* [ ] Create another class called Book
 
 BookLists should have the following properties:
-  1. Number of books marked as read
-  2. Number of books marked not read yet
+  1. Number of books marked as read.
+  2. Number of books marked not read yet.
   3. A reference to the next book to read (book object)
   4. A reference to the current book being read (book object)
   5. A reference to the last book read (book object)
@@ -13,7 +13,7 @@ BookLists should have the following properties:
 
 Each Book should have several properties:
   1. Title
-  2. Genre
+  2. Genres
   3. Author
   4. Read (true or false)
   5. Read date, can be blank, otherwise needs to be a JS Date() object
